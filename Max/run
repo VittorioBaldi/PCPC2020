@@ -1,1 +1,0 @@
-docker run -it --mount src=/c/Users/maxim/docker-workspace,target=/home,type=bind spagnuolocarmine/docker-mpi
