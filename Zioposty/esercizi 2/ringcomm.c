@@ -90,7 +90,7 @@ int ringGame(int rank, int world_size){
             if( sum <= S)
             {
                 MPI_Send(&sum, 1, MPI_INT, (rank+1)%world_size, (rank+1)%world_size, MPI_COMM_WORLD);
-                printf("Proc%d | Sended %d to %d\n", rank, sum, (rank+1)%world_size);
+                printf("Proc%d | Sent %d to %d\n", rank, sum, (rank+1)%world_size);
                 fflush(stdout);
             }
             else{
