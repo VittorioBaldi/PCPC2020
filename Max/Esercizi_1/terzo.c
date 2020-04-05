@@ -10,7 +10,7 @@ si eseguano le seguenti operazioni:
 #include<stdio.h>
 #include<stdlib.h>
 #include<mpi.h>
-#include"mycollective.h"
+#include"../mycollective.h"
 
 int main(int argc, char const *argv[])
 {
