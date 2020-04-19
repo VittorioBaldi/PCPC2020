@@ -1,0 +1,5 @@
+.aws
+.vscode
+AWS CLI
+aws-key.pem
+Max/run

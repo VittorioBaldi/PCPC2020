@@ -1,1 +1,9 @@
 docker run -it --mount src=/c/Users/maxim/github/PCPC2020/Max,target=/home,type=bind spagnuolocarmine/docker-mpi
+
+mpicc hello.c -o mpi
+
+mpirun −np 1 mpi
+
+docker-machine start
+docker-machine stop
+exit
